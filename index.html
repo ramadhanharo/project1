@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Zone Fetcher</title>
+</head>
+
+<body>
+    <h1>Fetch Current Time for a Time Zone</h1>
+    <input type="text" id="timeZone" placeholder="Enter Time Zone (e.g., Europe/Amsterdam)">
+    <button onclick="fetchTime()">Get Time</button>
+    <div id="result">
+        <p><strong>Current Time:</strong> <span id="dateTime"></span></p>
+        <p><strong>Time Zone:</strong> <span id="timeZoneName"></span></p>
+        <p><strong>UTC Offset:</strong> <span id="utcOffset"></span></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
